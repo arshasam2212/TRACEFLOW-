@@ -1,0 +1,6 @@
+@import "tailwindcss";
+body { background: radial-gradient(1200px 600px at 10% -10%, #10234d55, transparent), #060a14; color: #e2e8f0; font-family: Inter, system-ui, sans-serif; }
+.glass { background: rgba(255,255,255,.04); border: 1px solid rgba(148,163,184,.15); backdrop-filter: blur(8px); border-radius: 14px; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+@keyframes pop { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+.pop { animation: pop .35s ease both }
